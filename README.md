@@ -21,83 +21,11 @@ A API foi testada utilizando o **Insomnia**.
 
 ---
 
-## 📌 Regras de negócio
+## 📋 Regras de negócio
 
-Cada ferramenta deve possuir a seguinte estrutura:
+As regras de negócio da API estão documentadas no arquivo:
 
-```json
-{
-  "id": 1,
-  "nome": "Furadeira Bosch",
-  "categoria": "Eletrica",
-  "quantidade": 5,
-  "preco": 450,
-  "disponivel": true
-}
-```
-
-### ID
-
-- Gerado automaticamente.
-- Deve ser único.
-
-### Nome
-
-- Obrigatório.
-- Deve possuir entre **3 e 50 caracteres**.
-
-### Categoria
-
-Obrigatória e deve ser uma das seguintes:
-
-- Eletrica
-- Manual
-- Medicao
-- Jardinagem
-- Seguranca
-
-### Quantidade
-
-- Obrigatória.
-- Deve ser um número inteiro.
-- Não pode ser negativa.
-
-### Preço
-
-- Obrigatório.
-- Deve ser maior que zero.
-
-### Disponível
-
-Este campo não é enviado pelo cliente.
-
-Seu valor é definido automaticamente:
-
-- `true` quando a quantidade for maior que zero.
-- `false` quando a quantidade for igual a zero.
-
----
-
-## 🎯 Funcionalidades
-
-### Ferramentas
-
-- Listar todas as ferramentas
-- Buscar ferramenta por ID
-- Cadastrar nova ferramenta
-- Atualizar uma ferramenta
-- Excluir uma ferramenta
-
-### Validação
-
-Todas as requisições de cadastro e atualização passam por middlewares responsáveis por validar:
-
-- Nome
-- Categoria
-- Quantidade
-- Preço
-
-Somente após todas as validações serem aprovadas a requisição é encaminhada ao controller.
+- `regras_negocio.md`
 
 ---
 
