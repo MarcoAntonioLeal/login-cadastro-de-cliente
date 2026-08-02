@@ -1,12 +1,12 @@
 # 🛠️ API de Controle de Ferramentas
 
-<img width="1912" height="898" alt="image" src="https://github.com/user-attachments/assets/6bcdd1c7-8986-4c72-8073-df34ed54bccd" />
 
 API REST para gerenciamento de ferramentas, permitindo realizar operações de cadastro, consulta, atualização e remoção de ferramentas.
 
 O projeto foi desenvolvido em **Node.js + Express**, seguindo a arquitetura **MVC** e utilizando **middlewares** para validação das requisições antes da execução das regras de negócio.
 
 A API foi testada utilizando o **Insomnia**.
+<img width="1912" height="898" alt="image" src="https://github.com/user-attachments/assets/6bcdd1c7-8986-4c72-8073-df34ed54bccd" />
 
 ---
 
